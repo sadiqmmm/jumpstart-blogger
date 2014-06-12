@@ -1,11 +1,11 @@
 <h1><%= @article.title %></h1>
 
-<%= link_to "<< Back to Article List", articles_path %>
-
+<%= link_to "<< Back to Article List", articles_path %><br /><br />
 <p>
 	<%= link_to "Edit", edit_article_path(@article) %>
 	<%= link_to "Delete", article_path(@article), method: :delete, data: {confirm: "Are you sure?"} %>
 </p>
+<br />
 <p>
 	<%= @article.body %>
 </p>
