@@ -9,6 +9,9 @@
 <p>
 	<%= @article.body %>
 </p>
+<p>
+	Tags: <%= @article.tag_list %>
+</p>
 <h3>Post a Comment</h3>
 <%= render 'comments/form' %>
 
