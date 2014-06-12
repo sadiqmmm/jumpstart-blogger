@@ -10,7 +10,11 @@
 	<%= @article.body %>
 </p>
 <p>
-	Tags: <%= @article.tag_list %>
+	Tags: 
+	<% @article.tags.each do |tag|%>
+	  <%= link_to tag.name, tag_path(tag) %>
+	<% end %>
+
 </p>
 <h3>Post a Comment</h3>
 <%= render 'comments/form' %>

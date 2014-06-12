@@ -1,0 +1,6 @@
+<h1>All Tags</h1>
+<%= link_to "<< Back to Articles", articles_path %><br /><br />
+
+<% @tags.each do |tag| %>
+	<b><%= link_to tag.name, tag_path(tag) %></b> (<%= tag.articles.size %>),
+<% end %>
