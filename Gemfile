@@ -41,3 +41,4 @@ gem 'devise'
 gem 'puma'
 gem 'friendly_id'
 gem 'rails-erd' #Type erd in terminal and it will generate erd.pdf
+gem 'paperclip'
