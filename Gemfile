@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'https://rubygems.org'	
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
@@ -40,4 +40,4 @@ gem 'spring',        group: :development
 gem 'devise'
 gem 'puma'
 gem 'friendly_id'
-gem 'rails-erd'
+gem 'rails-erd' #Type erd in terminal and it will generate erd.pdf
